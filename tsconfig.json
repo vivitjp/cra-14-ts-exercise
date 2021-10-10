@@ -22,5 +22,11 @@
   },
   "include": [
     "src"
+  ],
+  "fileGlob": [
+    "./src/**/*.{ts,tsx}"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
