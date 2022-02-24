@@ -3,6 +3,8 @@
 // 砂場
 //========================================================
 
+const A = 1
+
 const multiply10 = (val1: number, val2: number) => {
   return val1 * val2 //OK
 }
