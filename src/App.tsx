@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import Exercise from './Exercise'
+import getValue from './Exercise'
 
 function App() {
+
+  const value = getValue(2, 3);
+
   return (
     <div className="App">
-      <Exercise />
+      {value.toString()}
     </div>
   );
 }
