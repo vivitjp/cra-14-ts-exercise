@@ -4,6 +4,7 @@
 //========================================================
 
 const A = 1
+const B = 2
 
 const multiply10 = (val1: number, val2: number) => {
   return val1 * val2 //OK
